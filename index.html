@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Goblin Shaman Games</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', Arial, sans-serif; background: #0a0a1a; color: #e0e0f0; min-height: 100vh; }
+    header { background: #12122a; border-bottom: 2px solid #7b2fff; padding: 18px 40px; display: flex; align-items: center; gap: 16px; }
+    header span { color: #c084fc; font-size: 1.3rem; font-weight: bold; letter-spacing: 1px; }
+    nav { margin-left: auto; display: flex; gap: 24px; }
+    nav a { color: #a0a0c0; text-decoration: none; font-size: 0.95rem; }
+    nav a:hover { color: #c084fc; }
+    .hero { text-align: center; padding: 80px 24px 60px; background: radial-gradient(ellipse at center, #1a0a3a 0%, #0a0a1a 70%); }
+    .hero h1 { font-size: 3rem; color: #c084fc; margin-bottom: 16px; }
+    .hero p { font-size: 1.1rem; color: #a0a0c0; max-width: 500px; margin: 0 auto 40px; line-height: 1.7; }
+    .games { max-width: 900px; margin: 60px auto; padding: 0 24px; }
+    .games h2 { font-size: 1.5rem; color: #a78bfa; margin-bottom: 32px; text-align: center; letter-spacing: 2px; text-transform: uppercase; }
+    .game-card { background: #12122a; border: 1px solid #2a2a4a; border-radius: 12px; padding: 32px; display: flex; gap: 32px; align-items: center; }
+    .game-card:hover { border-color: #7b2fff; }
+    .game-info h3 { font-size: 1.4rem; color: #c084fc; margin-bottom: 10px; }
+    .game-info p { color: #a0a0c0; line-height: 1.7; margin-bottom: 20px; }
+    .btn { display: inline-block; background: #7b2fff; color: #fff; padding: 12px 28px; border-radius: 8px; text-decoration: none; font-weight: bold; }
+    .btn:hover { background: #9b4fff; }
+    .emoji-icon { font-size: 5rem; flex-shrink: 0; }
+    footer { text-align: center; padding: 32px 24px; color: #404060; font-size: 0.85rem; border-top: 1px solid #1a1a3a; margin-top: 80px; }
+    footer a { color: #6060a0; text-decoration: none; }
+    footer a:hover { color: #c084fc; }
+  </style>
+</head>
+<body>
+<header>
+  <span>🧙 Goblin Shaman Games</span>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="privacy-policy.html">Privacy Policy</a>
+  </nav>
+</header>
+<div class="hero">
+  <h1>🧙 Goblin Shaman Games</h1>
+  <p>Independent game developer crafting fun, retro-inspired experiences for mobile and beyond.</p>
+</div>
+<section class="games">
+  <h2>Our Games</h2>
+  <div class="game-card">
+    <div class="emoji-icon">🐱🚀</div>
+    <div class="game-info">
+      <h3>Space Cat Arcade Adventure</h3>
+      <p>A retro arcade infinite runner featuring six playable space cats! Dodge hazards, collect power-ups, and blast your way to the top of the leaderboards. Free to play on Android.</p>
+      <a class="btn" href="https://play.google.com/store/apps/details?id=com.goblinshamangames.spacecatarcadeaventure" target="_blank">Get it on Google Play</a>
+    </div>
+  </div>
+</section>
+<footer>
+  &copy; 2026 Goblin Shaman Games &nbsp;|&nbsp;
+  <a href="privacy-policy.html">Privacy Policy</a> &nbsp;|&nbsp;
+  <a href="mailto:goblinshamangames@gmail.com">Contact</a>
+</footer>
+</body>
+</html>
